@@ -12,14 +12,14 @@ class Sounds{
     private var audio:AVAudioPlayer?=nil
     init(_ media:String,ofType:String){
         if let path=Bundle.main.path(forResource: "success", ofType: ofType){
-            if let uri=URL(string:"file://\(path)"){
+                let uri=URL(fileURLWithPath: path)
                 do{
                     audio = try AVAudioPlayer(contentsOf: uri, fileTypeHint: "mp3")
                     audio?.prepareToPlay()
                 }catch{
                     
                 }
-            }
+       
         }
     }
     func play(){
