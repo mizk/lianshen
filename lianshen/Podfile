@@ -1,0 +1,6 @@
+source 'https://github.com/cocoapods/specs.git'
+platform:osx, '10.13'
+use_frameworks!
+target 'lianshen' do
+    pod 'CryptoSwift'
+end

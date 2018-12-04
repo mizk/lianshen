@@ -1,0 +1,6 @@
+framework module Pods_lianshen {
+  umbrella header "Pods-lianshen-umbrella.h"
+
+  export *
+  module * { export * }
+}
