@@ -232,8 +232,8 @@
                                         </textFieldCell>
                                     </textField>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vk0-UK-yaW">
-                                        <rect key="frame" x="431" y="91" width="67" height="32"/>
-                                        <buttonCell key="cell" type="push" title="复制" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="i6B-La-tz5">
+                                        <rect key="frame" x="421" y="91" width="77" height="32"/>
+                                        <buttonCell key="cell" type="push" title="COPY" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="i6B-La-tz5">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="systemSemibold" size="13"/>
                                         </buttonCell>
@@ -259,8 +259,8 @@
                                         </textFieldCell>
                                     </textField>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dGk-AB-mO0">
-                                        <rect key="frame" x="431" y="34" width="67" height="32"/>
-                                        <buttonCell key="cell" type="push" title="比较" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="x4k-nA-Vjv">
+                                        <rect key="frame" x="429" y="34" width="69" height="32"/>
+                                        <buttonCell key="cell" type="push" title="DIFF" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="x4k-nA-Vjv">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="systemSemibold" size="13"/>
                                         </buttonCell>
@@ -270,7 +270,7 @@
                                         </connections>
                                     </button>
                                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DxK-f2-69d">
-                                        <rect key="frame" x="403" y="36" width="32" height="32"/>
+                                        <rect key="frame" x="401" y="36" width="32" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="32" id="0hb-ep-lE6"/>
                                             <constraint firstAttribute="width" constant="32" id="5Yf-h1-fU5"/>
